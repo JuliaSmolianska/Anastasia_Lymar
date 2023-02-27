@@ -1,2 +1,1 @@
-# Portfolio_Yuliia-Smolianska
-Created with CodeSandbox
+# Portfolio_Anastasiia Lymar
