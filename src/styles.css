@@ -5,6 +5,9 @@
   --secondary-color: rgb(252, 252, 252);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+[class*="col-"] {
+  width: 100%;
+}
 body {
   background-color: whitesmoke;
   margin-top: 60px;
@@ -40,45 +43,7 @@ h5 {
   background-color: #136f63;
   font-size: larger;
 }
-.primary-link {
-  width: 200px;
-  border-radius: 4px;
-  padding: 10px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-.primary-link:hover,
-.card-link:hover {
-  opacity: 0.8;
-  color: white;
-  cursor: pointer;
-}
-.card-link {
-  padding: 10px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  font-size: larger;
-}
-.border-primar {
-  border: 2px solid var(--primary-color);
-}
-.border-primar-top {
-  border-top: 1px solid var(--primary-color);
-}
-.border-pink {
-  border: 2px solid var(--pink-color);
-}
-.border-card {
-  border: 2px solid var(--primary-color);
-  border-radius: 10px;
-  background-color: white;
-}
+
 .bg-content {
   background-color: var(--secondary-color);
 }
@@ -96,19 +61,7 @@ h5 {
   color: white;
   font-size: 36px;
 }
-.skills-title {
-  color: var(--pink-color);
-}
-.skills-list {
-  color: var(--pink-color);
-}
-.skills-text {
-  color: black;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
+
 .body-project {
   background-blend-mode: overlay;
   background-repeat: no-repeat;
@@ -120,8 +73,7 @@ h5 {
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRazZPmk3nL26E1-L7P2YLYmMfHfAzy6UHVbg&usqp=CAU);
-  background-color: rgba(252, 252, 252, 0.7);
+  background-image: url(../images/bg2.jpg);
 }
 .body-3D {
   background-blend-mode: overlay;
@@ -135,11 +87,22 @@ h5 {
   background-size: cover;
   background-image: url(../images/bg3.jpg);
 }
+.body-digitalArt {
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/bg2.jpg);
+}
 .graphicDesignTitle {
   font-family: Segoe Print;
   font-size: 70px;
   color: white;
   text-align: center;
+}
+.text3D {
+  font-family: Segoe Print;
+  font-size: large;
+  color: white;
 }
 .margin-top {
   margin-top: 10px;
@@ -166,23 +129,6 @@ footer a:hover {
   color: whitesmoke;
   text-decoration: underline;
 }
-.d3_sliseImg {
-  position: relative;
-  height: 700px;
-}
-
-.d3_sliseImg2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.d3_sliseImg3 {
-  position: absolute;
-  top: 40%;
-  left: 53%;
-  z-index: 1;
-}
 
 .margin-top {
   margin-top: 10px;
@@ -190,5 +136,20 @@ footer a:hover {
 @media screen and (min-width: 768px) {
   .margin-top {
     margin-top: 100px;
+  }
+  .d3_sliseImg {
+    position: relative;
+    margin-bottom: 300px;
+  }
+  .d3_sliseImg2 {
+    position: absolute;
+    top: 80%;
+    left: 53%;
+    z-index: 1;
+  }
+  .d3_sliseText {
+    position: absolute;
+    top: 105%;
+    left: 1%;
   }
 }
