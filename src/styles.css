@@ -93,6 +93,12 @@ h5 {
   background-size: cover;
   background-image: url(../images/bg2.jpg);
 }
+.body-art {
+  background-blend-mode: overlay;
+  background-repeat: repeat;
+  background-size: 100%;
+  background-image: url(../images/bg2.jpg);
+}
 .graphicDesignTitle {
   font-family: Segoe Print;
   font-size: 70px;
