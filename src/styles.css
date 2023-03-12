@@ -110,12 +110,16 @@ h5 {
   font-size: large;
   color: white;
 }
-.margin-top {
+.margin-top,
+.margin-top2 {
   margin-top: 10px;
 }
 @media screen and (min-width: 768px) {
   .margin-top {
     margin-top: 100px;
+  }
+  .margin-top2 {
+    margin-top: 195px;
   }
 }
 .text-home {
