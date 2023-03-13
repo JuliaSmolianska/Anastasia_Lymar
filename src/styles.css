@@ -74,6 +74,7 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../images/bg2.jpg);
+  min-height: 550px;
 }
 .body-3D {
   background-blend-mode: overlay;
@@ -99,12 +100,14 @@ h5 {
   background-size: 100%;
   background-image: url(../images/bg2.jpg);
 }
-.graphicDesignTitle {
+.graphicDesignTitle,
+.artTitle {
   font-family: Segoe Print;
-  font-size: 70px;
+  font-size: 40px;
   color: white;
   text-align: center;
 }
+
 .text3D {
   font-family: Segoe Print;
   font-size: large;
@@ -114,12 +117,21 @@ h5 {
 .margin-top2 {
   margin-top: 10px;
 }
+.carousel {
+  margin-top: 100px;
+}
 @media screen and (min-width: 768px) {
   .margin-top {
     margin-top: 100px;
   }
   .margin-top2 {
     margin-top: 195px;
+  }
+  .graphicDesignTitle {
+    font-size: 70px;
+  }
+  .artTitle {
+    font-size: 50px;
   }
 }
 .text-home {
@@ -162,4 +174,10 @@ footer a:hover {
     top: 105%;
     left: 1%;
   }
+}
+.box3 {
+  padding: 5px 9%;
+}
+.box {
+  padding-bottom: 5%;
 }

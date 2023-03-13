@@ -7,20 +7,20 @@
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
     <title>Foto</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark navbar-bgcolor fixed-top">
@@ -69,108 +69,618 @@
         </div>
       </div>
     </nav>
-    <div class="pb-4 body-work padding-top">
-      <h1>My mini app</h1>
+    <div class="pb-4 body-3D pt-1">
       <div class="container">
-        <div class="row justify-content-event">
-          <div class="col-12 col-sm-6 col-lg-4 p-2">
-            <div class="text-center border-card">
-              <h5 class="card-title mt-3">Coffee List</h5>
-              <p class="text-start m-3" style="min-height: 100px">
-                In this task you can add random coffee to the list or remove it.
-                Technologies skills, that I used here: Query Rest API, React JS,
-                React-hooks, HTML, CSS
-              </p>
-              <a
-                href="https://csb-6d6p1z.netlify.app/"
-                class="text-decoration-none"
-              >
-                <div class="card-link w-100">See more</div>
-              </a>
+        <div id="carouselExampleIndicators" class="carousel slide box">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide1_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide1_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide1_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide2_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide2_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide2_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide3_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide3_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide3_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide4_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide4_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide4_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide5_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide5_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide5_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="col-12 col-sm-6 col-lg-4 p-2">
-            <div class="text-center border-card">
-              <h5 class="card-title mt-3">Cocktails</h5>
-              <p class="text-start m-3" style="min-height: 100px">
-                In this task you can like a cocktail that will increase the
-                counter and change the color of the title. Technologies skills,
-                that I used here: Query Rest API, React JS, React-hooks, HTML
-              </p>
-              <a
-                href="https://csb-cru3wf.netlify.app/"
-                class="text-decoration-none"
-              >
-                <div class="card-link w-100">See more</div>
-              </a>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="col-md-4">
+            <img
+              src="images/Foto/IMG_3243.jpg"
+              class="float-start img-fluid border border-white border-4 margin-top2"
+              alt="image"
+            />
+          </div>
+          <div class="col-md-4 d-block">
+            <img
+              src="images/Foto/IMG_3258.jpg"
+              class="img-fluid border border-white border-4"
+              alt="picture"
+            />
+            <img
+              src="images/Foto/IMG_3244.jpg"
+              class="img-fluid border border-white border-4 mt-2"
+              alt="picture"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/Foto/IMG_3259.jpg"
+              class="img-fluid border border-white border-4 margin-top2"
+              alt="picture"
+            />
+          </div>
+        </div>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide6_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide6_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide6_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide7_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide7_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide7_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="col-12 col-sm-6 col-lg-4 p-2">
-            <div class="text-center border-card">
-              <h5 class="card-title mt-3">Todo list</h5>
-              <p class="text-start m-3" style="min-height: 100px">
-                Here you can add or remove your todo, and mark completed.
-                Technologies skills, that I used here: JavaScript, HTML, CSS,
-                Bootstrap
-              </p>
-              <a
-                href="https://csb-1z3y6p.netlify.app/"
-                class="text-decoration-none"
-              >
-                <div class="card-link w-100">See more</div>
-              </a>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="col-md-6">
+            <img
+              src="images/Foto/IMG_3137.jpg"
+              class="float-start img-fluid border border-white border-4"
+              alt="image"
+            />
+          </div>
+          <div class="col-md-6">
+            <img
+              src="images/Foto/IMG_3115.jpg"
+              class="w-100 border border-white border-4"
+              alt="picture"
+              height="500px"
+            />
+          </div>
+        </div>
+        <div class="row mt-5 mb-5 d-flex justify-content-center">
+          <div class="col-md-5">
+            <img
+              src="images/Foto/IMG_3145.jpg"
+              class="float-start img-fluid border border-white border-4"
+              alt="image"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/Foto/IMG_3120.jpg"
+              class="w-100 border border-white border-4"
+              alt="picture"
+              height="500px"
+            />
+          </div>
+        </div>
+        <div
+          id="carouselExampleRide"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-inner box3">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide10_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide10_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide10_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide11_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide11_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                    height="190px"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide11_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide12_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide13_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide12_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide12_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide13_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide13_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
             </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleRide"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleRide"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="row">
+            <div class="col-md-3 p-1">
+              <img
+                src="images/Foto/IMG_2965.jpg"
+                class="img-fluid border border-white border-4"
+                alt="image"
+              />
+            </div>
+            <div class="col-md-3 p-1">
+              <img
+                src="images/Foto/IMG_3004.jpg"
+                class="w-100 border border-white border-4 margin-top"
+                alt="image"
+                height="350px"
+              />
+            </div>
 
-          <div class="col-12 col-sm-6 col-lg-4 p-2">
-            <div class="text-center border-card">
-              <h5 class="card-title mt-3">Jokes</h5>
-              <p class="text-start m-3" style="min-height: 100px">
-                In this task you can add jokes to the list or remove it.
-                Technologies skills, that I used here: React-Router, React JS,
-                HTML, CSS
-              </p>
-              <a
-                href="https://csb-01ze17.netlify.app/"
-                class="text-decoration-none"
-              >
-                <div class="card-link w-100">See more</div>
-              </a>
+            <div class="col-md-3 p-1">
+              <img
+                src="images/Foto/IMG_2991.jpg"
+                class="w-100 border border-white border-4 margin-top"
+                alt="image"
+                height="350px"
+              />
+            </div>
+            <div class="col-md-3 p-1">
+              <img
+                src="images/Foto/IMG_2970.jpg"
+                class="w-100 border border-white border-4"
+                alt="image"
+                height="350px"
+              />
             </div>
           </div>
-
-          <div class="col-12 col-sm-6 col-lg-4 p-2">
-            <div class="text-center border-card">
-              <h5 class="card-title mt-3">Star wars</h5>
-              <p class="text-start m-3" style="min-height: 100px">
-                Technologies skills, that I used here: Query GraphQL, React JS,
-                HTML, CSS
-              </p>
-              <a
-                href="https://csb-72qvc1.netlify.app/"
-                class="text-decoration-none"
-              >
-                <div class="card-link w-100">See more</div>
-              </a>
+        </div>
+        <div
+          id="carouselExampleControlsNoTouching"
+          class="carousel slide box"
+          data-bs-touch="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide14_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                    height="500px"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide14_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                    height="500px"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide14_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                    height="500px"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide15_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                    height="500px"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide15_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                    height="500px"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide15_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                    height="500px"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide16_1.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide16_2.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="images/Foto/slide16_3.jpg"
+                    class="d-block w-100 border border-white border-4"
+                    alt="Photo"
+                  />
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="col-12 col-sm-6 col-lg-4 p-2">
-            <div class="text-center border-card">
-              <h5 class="card-title mt-3">Register form</h5>
-              <p class="text-start m-3" style="min-height: 100px">
-                Technologies skills, that I used here: Control form, React JS,
-                HTML, CSS
-              </p>
-              <a
-                href="https://csb-ix331v.netlify.app/"
-                class="text-decoration-none"
-              >
-                <div class="card-link w-100">See more</div>
-              </a>
-            </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="col-md-4">
+            <img
+              src="images/Foto/slide8_2.jpg"
+              class="float-start img-fluid border border-white border-4"
+              alt="image"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/Foto/slide8_1.jpg"
+              class="img-fluid border border-white border-4 margin-top"
+              alt="picture"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/Foto/slide8_3.jpg"
+              class="img-fluid border border-white border-4"
+              alt="picture"
+            />
           </div>
         </div>
       </div>
@@ -179,21 +689,21 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-4 text-center">
-            <a href="https://www.linkedin.com/in/yuliia-smolianska-16b20624b/">
+            <a href="https://www.linkedin.com/in/anastasiia-lymar-277266226/">
               <i class="bi bi-linkedin icon"></i>
               <p>Linkedin</p>
             </a>
           </div>
           <div class="col-sm-4 text-center">
-            <a href="https://github.com/JuliaSmolianska">
-              <i class="bi bi-github icon"></i>
-              <p>GitHub</p>
+            <a href="https://www.instagram.com/lymar.art1721/">
+              <i class="bi bi-instagram icon"></i>
+              <p>Instagram</p>
             </a>
           </div>
           <div class="col-sm-4 text-center">
-            <a href="mailto:i.julia.i1990@gmail.com">
+            <a href="mailto:lymarnastya0503@gmail.com">
               <i class="bi bi-envelope-at-fill icon"></i>
-              <p>i.julia.i1990@gmail.com</p>
+              <p>lymarnastya0503@gmail.com</p>
             </a>
           </div>
         </div>
